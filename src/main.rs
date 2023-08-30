@@ -1,7 +1,7 @@
 #![cfg_attr(not(debug_assertions), windows_subsystem = "windows")] // hide console window on Windows in release
 
 use eframe::egui::{self, Sense};
-use epaint::{emath::RectTransform, Pos2, Rect};
+use epaint::Pos2;
 use log::info;
 
 fn main() -> Result<(), eframe::Error> {
